@@ -26,8 +26,8 @@ function cs_theme_header_js(){
     if (file_exists(GSROOTPATH.'index.html') && $_GET['create']<>'html') {
         echo '
 		<script type="text/javascript"> 
-			<!-- window.location="'.$SITEURL.'index.html"; //--> 
-        </script>';
+			window.location="'.$SITEURL.'index.html";
+		</script>';
     }
 }
 
